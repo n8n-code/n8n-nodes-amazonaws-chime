@@ -8,7 +8,7 @@ import type {
 export class AmazonawsChimeApi implements ICredentialType {
 	name = 'N8nDevAmazonawsChimeApi';
 
-	displayName = 'amazonaws-chime API';
+	displayName = 'Amazonaws Chime API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsChime/amazonaws-chime.png', dark: 'file:../nodes/AmazonawsChime/amazonaws-chime.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsChimeApi implements ICredentialType {
 			default: 'http://service.chime.aws.amazon.com',
 			required: true,
 			placeholder: 'http://service.chime.aws.amazon.com',
-			description: 'The base URL of your amazonaws-chime API server',
+			description: 'The base URL of your Amazonaws Chime API server',
 		},
 		{
 			displayName: 'API Key',

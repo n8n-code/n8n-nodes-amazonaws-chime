@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsChime implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-chime',
+		displayName: 'Amazonaws Chime',
 		name: 'N8nDevAmazonawsChime',
 		icon: { light: 'file:./amazonaws-chime.png', dark: 'file:./amazonaws-chime.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Amazon Chime application programming interface (API) is designed so administrators can perform key tasks, such as creating and managing Amazon Chime accounts, users, and Voice Connectors. Th..',
-		defaults: { name: 'amazonaws-chime' },
+		description: 'Amazon Chime API enables administrators to manage accounts, users, and Voice Connectors.',
+		defaults: { name: 'Amazonaws Chime' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

@@ -2329,7 +2329,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -2347,7 +2347,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "The user ID.",
@@ -2466,7 +2466,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -2610,7 +2610,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Group Id",
+			"displayName": "Voice Connector Group ID",
 			"name": "voiceConnectorGroupId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector group ID.",
@@ -2754,7 +2754,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -2873,7 +2873,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -3170,7 +3170,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -3188,7 +3188,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Room Id",
+			"displayName": "Room ID",
 			"name": "roomId",
 			"required": true,
 			"description": "The room ID.",
@@ -3408,7 +3408,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -3458,7 +3458,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "User Id List",
+			"displayName": "User ID List",
 			"name": "UserIdList",
 			"type": "json",
 			"default": "[\n  null\n]",
@@ -3527,7 +3527,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -3577,7 +3577,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "User Id List",
+			"displayName": "User ID List",
 			"name": "UserIdList",
 			"type": "json",
 			"default": "[\n  null\n]",
@@ -3747,7 +3747,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -3835,7 +3835,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -4888,7 +4888,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "App Instance User Id",
+			"displayName": "App Instance User ID",
 			"name": "AppInstanceUserId",
 			"type": "string",
 			"default": "",
@@ -5059,7 +5059,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -5078,7 +5078,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "External User Id",
+			"displayName": "External User ID",
 			"name": "ExternalUserId",
 			"type": "string",
 			"default": "",
@@ -5172,7 +5172,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -5334,7 +5334,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -5447,7 +5447,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -6848,7 +6848,7 @@ export const defaultDescription: INodeProperties[] = [
 			"description": "Source type from which the media artifacts will be captured. A Chime SDK Meeting is the only supported source.",
 			"options": [
 				{
-					"name": "Chime Sdk Meeting",
+					"name": "Chime SDK Meeting",
 					"value": "ChimeSdkMeeting"
 				}
 			],
@@ -6981,7 +6981,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chime Sdk Meeting Configuration",
+			"displayName": "Chime SDK Meeting Configuration",
 			"name": "ChimeSdkMeetingConfiguration",
 			"type": "json",
 			"default": "{\n  \"SourceConfiguration\": {\n    \"SelectedVideoStreams\": {}\n  },\n  \"ArtifactsConfiguration\": {}\n}",
@@ -7220,7 +7220,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "External Meeting Id",
+			"displayName": "External Meeting ID",
 			"name": "ExternalMeetingId",
 			"type": "string",
 			"default": "",
@@ -7245,7 +7245,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Host Id",
+			"displayName": "Meeting Host ID",
 			"name": "MeetingHostId",
 			"type": "string",
 			"default": "",
@@ -7533,7 +7533,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -7730,7 +7730,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "External Meeting Id",
+			"displayName": "External Meeting ID",
 			"name": "ExternalMeetingId",
 			"type": "string",
 			"default": "",
@@ -7755,7 +7755,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Host Id",
+			"displayName": "Meeting Host ID",
 			"name": "MeetingHostId",
 			"type": "string",
 			"default": "",
@@ -8178,7 +8178,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime voice connector ID.",
@@ -8437,7 +8437,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime voice connector ID.",
@@ -8638,7 +8638,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -8751,7 +8751,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -8769,7 +8769,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Member Id",
+			"displayName": "Member ID",
 			"name": "member-id",
 			"description": "The member ID (user ID or bot ID).",
 			"default": "",
@@ -8938,7 +8938,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -8956,7 +8956,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Room Id",
+			"displayName": "Room ID",
 			"name": "roomId",
 			"required": true,
 			"description": "The room ID.",
@@ -8975,7 +8975,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Member Id",
+			"displayName": "Member ID",
 			"name": "MemberId",
 			"type": "string",
 			"default": "",
@@ -9079,7 +9079,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -9097,7 +9097,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Room Id",
+			"displayName": "Room ID",
 			"name": "roomId",
 			"required": true,
 			"description": "The room ID.",
@@ -9260,7 +9260,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Aws Region",
+			"displayName": "AWS Region",
 			"name": "AwsRegion",
 			"type": "string",
 			"default": "",
@@ -9525,7 +9525,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sip Media Application Id",
+			"displayName": "Sip Media Application ID",
 			"name": "sipMediaApplicationId",
 			"required": true,
 			"description": "The ID of the SIP media application.",
@@ -10016,7 +10016,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -10220,7 +10220,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Aws Region",
+			"displayName": "AWS Region",
 			"name": "AwsRegion",
 			"type": "options",
 			"default": "us-east-1",
@@ -10708,7 +10708,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -10770,7 +10770,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -10832,7 +10832,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -11808,7 +11808,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -11826,7 +11826,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Attendee Id",
+			"displayName": "Attendee ID",
 			"name": "attendeeId",
 			"required": true,
 			"description": "The Amazon Chime SDK attendee ID.",
@@ -11888,7 +11888,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -11906,7 +11906,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Attendee Id",
+			"displayName": "Attendee ID",
 			"name": "attendeeId",
 			"required": true,
 			"description": "The Amazon Chime SDK attendee ID.",
@@ -12747,7 +12747,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Message Id",
+			"displayName": "Message ID",
 			"name": "messageId",
 			"required": true,
 			"description": "The ID of the message being deleted.",
@@ -12851,7 +12851,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Message Id",
+			"displayName": "Message ID",
 			"name": "messageId",
 			"required": true,
 			"description": "The ID of the message.",
@@ -12955,7 +12955,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Message Id",
+			"displayName": "Message ID",
 			"name": "messageId",
 			"required": true,
 			"description": "The ID string of the message being updated.",
@@ -13299,7 +13299,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -13317,7 +13317,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Bot Id",
+			"displayName": "Bot ID",
 			"name": "botId",
 			"required": true,
 			"description": "The bot ID.",
@@ -13379,7 +13379,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -13397,7 +13397,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Bot Id",
+			"displayName": "Bot ID",
 			"name": "botId",
 			"required": true,
 			"description": "The bot ID.",
@@ -13459,7 +13459,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -13477,7 +13477,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Bot Id",
+			"displayName": "Bot ID",
 			"name": "botId",
 			"required": true,
 			"description": "The bot ID.",
@@ -13589,7 +13589,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Media Pipeline Id",
+			"displayName": "Media Pipeline ID",
 			"name": "mediaPipelineId",
 			"required": true,
 			"description": "The ID of the media capture pipeline being deleted. ",
@@ -13651,7 +13651,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Media Pipeline Id",
+			"displayName": "Media Pipeline ID",
 			"name": "mediaPipelineId",
 			"required": true,
 			"description": "The ID of the pipeline that you want to get.",
@@ -13713,7 +13713,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -13775,7 +13775,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -13837,7 +13837,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Phone Number Id",
+			"displayName": "Phone Number ID",
 			"name": "phoneNumberId",
 			"required": true,
 			"description": "The phone number ID.",
@@ -13899,7 +13899,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Phone Number Id",
+			"displayName": "Phone Number ID",
 			"name": "phoneNumberId",
 			"required": true,
 			"description": "The phone number ID.",
@@ -13961,7 +13961,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Phone Number Id",
+			"displayName": "Phone Number ID",
 			"name": "phoneNumberId",
 			"required": true,
 			"description": "The phone number ID.",
@@ -14087,7 +14087,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime voice connector ID.",
@@ -14105,7 +14105,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Proxy Session Id",
+			"displayName": "Proxy Session ID",
 			"name": "proxySessionId",
 			"required": true,
 			"description": "The proxy session ID.",
@@ -14167,7 +14167,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime voice connector ID.",
@@ -14185,7 +14185,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Proxy Session Id",
+			"displayName": "Proxy Session ID",
 			"name": "proxySessionId",
 			"required": true,
 			"description": "The proxy session ID.",
@@ -14247,7 +14247,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime voice connector ID.",
@@ -14265,7 +14265,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Proxy Session Id",
+			"displayName": "Proxy Session ID",
 			"name": "proxySessionId",
 			"required": true,
 			"description": "The proxy session ID.",
@@ -14378,7 +14378,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -14396,7 +14396,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Room Id",
+			"displayName": "Room ID",
 			"name": "roomId",
 			"required": true,
 			"description": "The chat room ID.",
@@ -14458,7 +14458,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -14476,7 +14476,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Room Id",
+			"displayName": "Room ID",
 			"name": "roomId",
 			"required": true,
 			"description": "The room ID.",
@@ -14538,7 +14538,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -14556,7 +14556,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Room Id",
+			"displayName": "Room ID",
 			"name": "roomId",
 			"required": true,
 			"description": "The room ID.",
@@ -14643,7 +14643,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -14661,7 +14661,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Room Id",
+			"displayName": "Room ID",
 			"name": "roomId",
 			"required": true,
 			"description": "The room ID.",
@@ -14679,7 +14679,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Member Id",
+			"displayName": "Member ID",
 			"name": "memberId",
 			"required": true,
 			"description": "The member ID (user ID or bot ID).",
@@ -14741,7 +14741,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -14759,7 +14759,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Room Id",
+			"displayName": "Room ID",
 			"name": "roomId",
 			"required": true,
 			"description": "The room ID.",
@@ -14777,7 +14777,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Member Id",
+			"displayName": "Member ID",
 			"name": "memberId",
 			"required": true,
 			"description": "The member ID.",
@@ -14874,7 +14874,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sip Media Application Id",
+			"displayName": "Sip Media Application ID",
 			"name": "sipMediaApplicationId",
 			"required": true,
 			"description": "The SIP media application ID.",
@@ -14936,7 +14936,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sip Media Application Id",
+			"displayName": "Sip Media Application ID",
 			"name": "sipMediaApplicationId",
 			"required": true,
 			"description": "The SIP media application ID.",
@@ -14998,7 +14998,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sip Media Application Id",
+			"displayName": "Sip Media Application ID",
 			"name": "sipMediaApplicationId",
 			"required": true,
 			"description": "The SIP media application ID.",
@@ -15110,7 +15110,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sip Rule Id",
+			"displayName": "Sip Rule ID",
 			"name": "sipRuleId",
 			"required": true,
 			"description": "The SIP rule ID.",
@@ -15172,7 +15172,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sip Rule Id",
+			"displayName": "Sip Rule ID",
 			"name": "sipRuleId",
 			"required": true,
 			"description": "The SIP rule ID.",
@@ -15234,7 +15234,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sip Rule Id",
+			"displayName": "Sip Rule ID",
 			"name": "sipRuleId",
 			"required": true,
 			"description": "The SIP rule ID.",
@@ -15372,7 +15372,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -15434,7 +15434,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -15496,7 +15496,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -15610,7 +15610,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -15672,7 +15672,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -15734,7 +15734,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -15822,7 +15822,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Group Id",
+			"displayName": "Voice Connector Group ID",
 			"name": "voiceConnectorGroupId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector group ID.",
@@ -15884,7 +15884,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Group Id",
+			"displayName": "Voice Connector Group ID",
 			"name": "voiceConnectorGroupId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector group ID.",
@@ -15946,7 +15946,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Group Id",
+			"displayName": "Voice Connector Group ID",
 			"name": "voiceConnectorGroupId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector group ID.",
@@ -16060,7 +16060,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -16122,7 +16122,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -16184,7 +16184,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -16272,7 +16272,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -16334,7 +16334,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime voice connector ID.",
@@ -16396,7 +16396,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime voice connector ID.",
@@ -16560,7 +16560,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -16622,7 +16622,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -16684,7 +16684,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -16772,7 +16772,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -16834,7 +16834,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -16896,7 +16896,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -16984,7 +16984,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -17389,7 +17389,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -17407,7 +17407,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "The user ID.",
@@ -17500,7 +17500,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -17619,7 +17619,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Group Id",
+			"displayName": "Voice Connector Group ID",
 			"name": "voiceConnectorGroupId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector group ID.",
@@ -17738,7 +17738,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -17857,7 +17857,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -17919,7 +17919,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -18157,7 +18157,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -18175,7 +18175,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Bot Id",
+			"displayName": "Bot ID",
 			"name": "botId",
 			"required": true,
 			"description": "The bot ID.",
@@ -18237,7 +18237,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -18255,7 +18255,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Bot Id",
+			"displayName": "Bot ID",
 			"name": "botId",
 			"required": true,
 			"description": "The bot ID.",
@@ -18524,7 +18524,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Phone Number Order Id",
+			"displayName": "Phone Number Order ID",
 			"name": "phoneNumberOrderId",
 			"required": true,
 			"description": "The ID for the phone number order.",
@@ -18700,7 +18700,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -18762,7 +18762,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -18850,7 +18850,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sip Media Application Id",
+			"displayName": "Sip Media Application ID",
 			"name": "sipMediaApplicationId",
 			"required": true,
 			"description": "The SIP media application ID.",
@@ -18912,7 +18912,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sip Media Application Id",
+			"displayName": "Sip Media Application ID",
 			"name": "sipMediaApplicationId",
 			"required": true,
 			"description": "The SIP media application ID.",
@@ -18999,7 +18999,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -19017,7 +19017,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "The user ID.",
@@ -19079,7 +19079,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -19097,7 +19097,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "The user ID.",
@@ -19262,7 +19262,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -19280,7 +19280,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "The user ID.",
@@ -19342,7 +19342,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -19360,7 +19360,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "The user ID.",
@@ -19448,7 +19448,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -19510,7 +19510,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -19598,7 +19598,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -19660,7 +19660,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -19984,7 +19984,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -20002,7 +20002,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Attendee Id",
+			"displayName": "Attendee ID",
 			"name": "attendeeId",
 			"required": true,
 			"description": "The Amazon Chime SDK attendee ID.",
@@ -21247,7 +21247,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -21414,23 +21414,23 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Account Id",
+					"name": "Account ID",
 					"value": "AccountId"
 				},
 				{
-					"name": "User Id",
+					"name": "User ID",
 					"value": "UserId"
 				},
 				{
-					"name": "Voice Connector Id",
+					"name": "Voice Connector ID",
 					"value": "VoiceConnectorId"
 				},
 				{
-					"name": "Voice Connector Group Id",
+					"name": "Voice Connector Group ID",
 					"value": "VoiceConnectorGroupId"
 				},
 				{
-					"name": "Sip Rule Id",
+					"name": "Sip Rule ID",
 					"value": "SipRuleId"
 				}
 			],
@@ -21777,7 +21777,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -21839,7 +21839,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -21857,7 +21857,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "The user ID.",
@@ -21950,7 +21950,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Voice Connector Id",
+			"displayName": "Voice Connector ID",
 			"name": "voiceConnectorId",
 			"required": true,
 			"description": "The Amazon Chime Voice Connector ID.",
@@ -22086,7 +22086,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Message Id",
+			"displayName": "Message ID",
 			"name": "messageId",
 			"required": true,
 			"description": "The ID of the message being redacted.",
@@ -22203,7 +22203,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -22221,7 +22221,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Conversation Id",
+			"displayName": "Conversation ID",
 			"name": "conversationId",
 			"required": true,
 			"description": "The conversation ID.",
@@ -22239,7 +22239,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Message Id",
+			"displayName": "Message ID",
 			"name": "messageId",
 			"required": true,
 			"description": "The message ID.",
@@ -22332,7 +22332,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -22350,7 +22350,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Room Id",
+			"displayName": "Room ID",
 			"name": "roomId",
 			"required": true,
 			"description": "The room ID.",
@@ -22368,7 +22368,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Message Id",
+			"displayName": "Message ID",
 			"name": "messageId",
 			"required": true,
 			"description": "The message ID.",
@@ -22461,7 +22461,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -22479,7 +22479,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Bot Id",
+			"displayName": "Bot ID",
 			"name": "botId",
 			"required": true,
 			"description": "The bot ID.",
@@ -22572,7 +22572,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "accountId",
 			"required": true,
 			"description": "The Amazon Chime account ID.",
@@ -22590,7 +22590,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "The user ID.",
@@ -22683,7 +22683,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Phone Number Id",
+			"displayName": "Phone Number ID",
 			"name": "phoneNumberId",
 			"required": true,
 			"description": "The phone number.",
@@ -23111,7 +23111,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The unique ID of the meeting being transcribed.",
@@ -23230,7 +23230,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The unique ID of the meeting for which you stop transcription.",
@@ -23323,7 +23323,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -23341,7 +23341,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Attendee Id",
+			"displayName": "Attendee ID",
 			"name": "attendeeId",
 			"required": true,
 			"description": "The Amazon Chime SDK attendee ID.",
@@ -23460,7 +23460,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -23706,7 +23706,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -23724,7 +23724,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Attendee Id",
+			"displayName": "Attendee ID",
 			"name": "attendeeId",
 			"required": true,
 			"description": "The Amazon Chime SDK attendee ID.",
@@ -23843,7 +23843,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Meeting Id",
+			"displayName": "Meeting ID",
 			"name": "meetingId",
 			"required": true,
 			"description": "The Amazon Chime SDK meeting ID.",
@@ -24175,7 +24175,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sip Media Application Id",
+			"displayName": "Sip Media Application ID",
 			"name": "sipMediaApplicationId",
 			"required": true,
 			"description": "The ID of the SIP media application handling the call.",
@@ -24193,7 +24193,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Transaction Id",
+			"displayName": "Transaction ID",
 			"name": "transactionId",
 			"required": true,
 			"description": "The ID of the call transaction.",
@@ -24282,7 +24282,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Aws Account Id",
+			"displayName": "AWS Account ID",
 			"name": "AwsAccountId",
 			"type": "string",
 			"default": "",

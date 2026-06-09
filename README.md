@@ -53,9 +53,202 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post associate phone number with user, Post associate phone numbers with voice connector, Post associate phone numbers with voice connector group, Post associate signin delegate groups with account, Post batch create attendee, Post batch create channel membership, Post batch create room membership, Post batch delete phone number, Post batch suspend user, Post batch unsuspend user, Post batch update phone number, Post batch update user, Get list users, Post create account, Get list accounts, Post create app instance, Get list app instances, Post create app instance admin, Get list app instance admins, Post create app instance user, Post create attendee, Get list attendees, Post create bot, Get list bots, Post create channel, Post create channel ban, Get list channel bans, Post create channel membership, Get list channel memberships, Post create channel moderator, Get list channel moderators, Post create media capture pipeline, Get list media capture pipelines, Post create meeting, Get list meetings, Post create meeting dial out, Post create meeting with attendees, Post create phone number order, Get list phone number orders, Post create proxy session, Get list proxy sessions, Post create room, Get list rooms, Post create room membership, Get list room memberships, Post create sip media application, Get list sip media applications, Post create sip media application call, Post create sip rule, Get list sip rules, Post create user, Post create voice connector, Get list voice connectors, Post create voice connector group, Get list voice connector groups, Delete account, Get account, Post update account, Delete app instance, Get describe app instance, Put update app instance, Delete app instance admin, Get describe app instance admin, Delete app instance streaming configurations, Get app instance streaming configurations, Put app instance streaming configurations, Delete app instance user, Get describe app instance user, Put update app instance user, Delete attendee, Get attendee, Delete channel, Get describe channel, Put update channel, Delete channel ban, Get describe channel ban, Delete channel membership, Get describe channel membership, Delete channel message, Get channel message, Put update channel message, Delete channel moderator, Get describe channel moderator, Delete events configuration, Get events configuration, Put events configuration, Delete media capture pipeline, Get media capture pipeline, Delete meeting, Get meeting, Delete phone number, Get phone number, Post update phone number, Delete proxy session, Get proxy session, Post update proxy session, Delete room, Get room, Post update room, Delete room membership, Post update room membership, Delete sip media application, Get sip media application, Put update sip media application, Delete sip rule, Get sip rule, Put update sip rule, Delete voice connector, Get voice connector, Put update voice connector, Delete voice connector emergency calling configuration, Get voice connector emergency calling configuration, Put voice connector emergency calling configuration, Delete voice connector group, Get voice connector group, Put update voice connector group, Delete voice connector origination, Get voice connector origination, Put voice connector origination, Delete voice connector proxy, Get voice connector proxy, Put voice connector proxy, Delete voice connector streaming configuration, Get voice connector streaming configuration, Put voice connector streaming configuration, Delete voice connector termination, Get voice connector termination, Put voice connector termination, Post delete voice connector termination credentials, Get describe channel membership for app instance user, Get describe channel moderated by app instance user, Post disassociate phone number from user, Post disassociate phone numbers from voice connector, Post disassociate phone numbers from voice connector group, Post disassociate signin delegate groups from account, Get account settings, Put update account settings, Get app instance retention settings, Put app instance retention settings, Get bot, Post update bot, Get global settings, Put update global settings, Get messaging session endpoint, Get phone number order, Get phone number settings, Put update phone number settings, Get retention settings, Put retention settings, Get sip media application logging configuration, Put sip media application logging configuration, Get user, Post update user, Get user settings, Put update user settings, Get voice connector logging configuration, Put voice connector logging configuration, Get voice connector termination health, Post invite users, Get list app instance users, Get list attendee tags, Get list channel memberships for app instance user, Get list channel messages, Post send channel message, Get list channels, Get list channels moderated by app instance user, Get list meeting tags, Get list phone numbers, Get list supported phone number countries, Get list tags for resource, Get list voice connector termination credentials, Post logout user, Post put voice connector termination credentials, Post redact channel message, Post redact conversation message, Post redact room message, Post regenerate security token, Post reset personal pin, Post restore phone number, Get search available phone numbers, Post start meeting transcription, Post stop meeting transcription, Post tag attendee, Post tag meeting, Post tag resource, Post untag attendee, Post untag meeting, Post untag resource, Put update channel read marker, Post update sip media application call, Post validate e 911 address |
+<details>
+<summary><b>Default</b> (191 operations)</summary>
+
+- Post Associate Phone Number With User
+- Post Associate Phone Numbers With Voice Connector
+- Post Associate Phone Numbers With Voice Connector Group
+- Post Associate Signin Delegate Groups With Account
+- Post Batch Create Attendee
+- Post Batch Create Channel Membership
+- Post Batch Create Room Membership
+- Post Batch Delete Phone Number
+- Post Batch Suspend User
+- Post Batch Unsuspend User
+- Post Batch Update Phone Number
+- Post Batch Update User
+- Get List Users
+- Post Create Account
+- Get List Accounts
+- Post Create App Instance
+- Get List App Instances
+- Post Create App Instance Admin
+- Get List App Instance Admins
+- Post Create App Instance User
+- Post Create Attendee
+- Get List Attendees
+- Post Create Bot
+- Get List Bots
+- Post Create Channel
+- Post Create Channel Ban
+- Get List Channel Bans
+- Post Create Channel Membership
+- Get List Channel Memberships
+- Post Create Channel Moderator
+- Get List Channel Moderators
+- Post Create Media Capture Pipeline
+- Get List Media Capture Pipelines
+- Post Create Meeting
+- Get List Meetings
+- Post Create Meeting Dial Out
+- Post Create Meeting With Attendees
+- Post Create Phone Number Order
+- Get List Phone Number Orders
+- Post Create Proxy Session
+- Get List Proxy Sessions
+- Post Create Room
+- Get List Rooms
+- Post Create Room Membership
+- Get List Room Memberships
+- Post Create Sip Media Application
+- Get List Sip Media Applications
+- Post Create Sip Media Application Call
+- Post Create Sip Rule
+- Get List Sip Rules
+- Post Create User
+- Post Create Voice Connector
+- Get List Voice Connectors
+- Post Create Voice Connector Group
+- Get List Voice Connector Groups
+- Delete Account
+- Get Account
+- Post Update Account
+- Delete App Instance
+- Get Describe App Instance
+- Put Update App Instance
+- Delete App Instance Admin
+- Get Describe App Instance Admin
+- Delete App Instance Streaming Configurations
+- Get App Instance Streaming Configurations
+- Put App Instance Streaming Configurations
+- Delete App Instance User
+- Get Describe App Instance User
+- Put Update App Instance User
+- Delete Attendee
+- Get Attendee
+- Delete Channel
+- Get Describe Channel
+- Put Update Channel
+- Delete Channel Ban
+- Get Describe Channel Ban
+- Delete Channel Membership
+- Get Describe Channel Membership
+- Delete Channel Message
+- Get Channel Message
+- Put Update Channel Message
+- Delete Channel Moderator
+- Get Describe Channel Moderator
+- Delete Events Configuration
+- Get Events Configuration
+- Put Events Configuration
+- Delete Media Capture Pipeline
+- Get Media Capture Pipeline
+- Delete Meeting
+- Get Meeting
+- Delete Phone Number
+- Get Phone Number
+- Post Update Phone Number
+- Delete Proxy Session
+- Get Proxy Session
+- Post Update Proxy Session
+- Delete Room
+- Get Room
+- Post Update Room
+- Delete Room Membership
+- Post Update Room Membership
+- Delete Sip Media Application
+- Get Sip Media Application
+- Put Update Sip Media Application
+- Delete Sip Rule
+- Get Sip Rule
+- Put Update Sip Rule
+- Delete Voice Connector
+- Get Voice Connector
+- Put Update Voice Connector
+- Delete Voice Connector Emergency Calling Configuration
+- Get Voice Connector Emergency Calling Configuration
+- Put Voice Connector Emergency Calling Configuration
+- Delete Voice Connector Group
+- Get Voice Connector Group
+- Put Update Voice Connector Group
+- Delete Voice Connector Origination
+- Get Voice Connector Origination
+- Put Voice Connector Origination
+- Delete Voice Connector Proxy
+- Get Voice Connector Proxy
+- Put Voice Connector Proxy
+- Delete Voice Connector Streaming Configuration
+- Get Voice Connector Streaming Configuration
+- Put Voice Connector Streaming Configuration
+- Delete Voice Connector Termination
+- Get Voice Connector Termination
+- Put Voice Connector Termination
+- Post Delete Voice Connector Termination Credentials
+- Get Describe Channel Membership For App Instance User
+- Get Describe Channel Moderated By App Instance User
+- Post Disassociate Phone Number From User
+- Post Disassociate Phone Numbers From Voice Connector
+- Post Disassociate Phone Numbers From Voice Connector Group
+- Post Disassociate Signin Delegate Groups From Account
+- Get Account Settings
+- Put Update Account Settings
+- Get App Instance Retention Settings
+- Put App Instance Retention Settings
+- Get Bot
+- Post Update Bot
+- Get Global Settings
+- Put Update Global Settings
+- Get Messaging Session Endpoint
+- Get Phone Number Order
+- Get Phone Number Settings
+- Put Update Phone Number Settings
+- Get Retention Settings
+- Put Retention Settings
+- Get Sip Media Application Logging Configuration
+- Put Sip Media Application Logging Configuration
+- Get User
+- Post Update User
+- Get User Settings
+- Put Update User Settings
+- Get Voice Connector Logging Configuration
+- Put Voice Connector Logging Configuration
+- Get Voice Connector Termination Health
+- Post Invite Users
+- Get List App Instance Users
+- Get List Attendee Tags
+- Get List Channel Memberships For App Instance User
+- Get List Channel Messages
+- Post Send Channel Message
+- Get List Channels
+- Get List Channels Moderated By App Instance User
+- Get List Meeting Tags
+- Get List Phone Numbers
+- Get List Supported Phone Number Countries
+- Get List Tags For Resource
+- Get List Voice Connector Termination Credentials
+- Post Logout User
+- Post Put Voice Connector Termination Credentials
+- Post Redact Channel Message
+- Post Redact Conversation Message
+- Post Redact Room Message
+- Post Regenerate Security Token
+- Post Reset Personal PIN
+- Post Restore Phone Number
+- Get Search Available Phone Numbers
+- Post Start Meeting Transcription
+- Post Stop Meeting Transcription
+- Post Tag Attendee
+- Post Tag Meeting
+- Post Tag Resource
+- Post Untag Attendee
+- Post Untag Meeting
+- Post Untag Resource
+- Put Update Channel Read Marker
+- Post Update Sip Media Application Call
+- Post Validate E 911 Address
+
+</details>
 
 ---
 
